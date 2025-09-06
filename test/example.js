@@ -3,7 +3,8 @@
  * 
  * 此文件演示了如何使用SDK连接到不同厂商的设备
  */
-
+// 加载env
+require('dotenv').config();
 const { 
   HikvisionClient, 
   DahuaClient, 

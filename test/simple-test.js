@@ -1,7 +1,7 @@
 /**
  * 简单测试文件 - 演示如何使用统一摄像头SDK
  */
-
+require('dotenv').config();
 const { 
   HikvisionClient, 
   DahuaClient, 

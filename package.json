@@ -11,7 +11,10 @@
   ],
   "scripts": {
     "test": "node test/simple-test.js",
-    "test:example": "node test/example.js"
+    "test:example": "node test/example.js",
+    "release:patch": "npm version patch && git push && git push --tags && npm publish",
+    "release:minor": "npm version minor && git push && git push --tags && npm publish",
+    "release:major": "npm version major && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",

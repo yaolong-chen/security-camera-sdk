@@ -1,6 +1,6 @@
 {
   "name": "security-camera-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Universal SDK for interfacing with various security camera vendors including Hikvision, Dahua, Uniview and others",
   "main": "index.js",
   "files": [
